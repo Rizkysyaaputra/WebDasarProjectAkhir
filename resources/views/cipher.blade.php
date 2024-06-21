@@ -58,22 +58,22 @@
             </div>
 
             <div id="shift_group" class="form-group">
-                <label for="shift">Shift (for Caesar Cipher):</label>
+                <label for="shift"> Pergeseran(Untuk Caesar Cipher):</label>
                 <input type="number" name="shift" id="shift" value="{{ old('shift') }}">
             </div>
 
             <div id="key_group" class="form-group">
-                <label for="key">Key (for Vigenère Cipher):</label>
+                <label for="key">Kunci (Untuk Vigenère Cipher):</label>
                 <input type="text" name="key" id="key" value="{{ old('key') }}">
             </div>
 
             <div id="affine_a_group" class="form-group">
-                <label for="affine_a">Affine Cipher - Value A:</label>
+                <label for="affine_a">Affine Cipher - Nilai A:</label>
                 <input type="number" name="affine_a" id="affine_a" value="{{ old('affine_a') }}">
             </div>
 
             <div id="affine_b_group" class="form-group">
-                <label for="affine_b">Affine Cipher - Value B:</label>
+                <label for="affine_b">Affine Cipher - Nilai B:</label>
                 <input type="number" name="affine_b" id="affine_b" value="{{ old('affine_b') }}">
             </div>
 
